@@ -1,7 +1,7 @@
-startshape spinymain { color alpha}
+startshape spinymain 
 
 rule spinymain{
-spiny2 {hue =40.0 sat =0.9014 b =1.0000  alpha =0.6}
+spiny2 {hue 40.0 sat 0.9014 b 1.0000  alpha 0.6}
 }
 
 rule spiny2 {
