@@ -1,0 +1,43 @@
+startshape trees {color}
+
+rule trees {
+tree { sat =1 b =1 }
+trees { r -15 s 0.90 x 1}
+}
+
+rule tree {
+branch {b 1}
+}
+
+rule branch 20 {
+	draw {}	branch { y 1 s 0.95 r 5 sat -0.025}
+}
+
+rule branch {
+	draw {}	branch { y 1 s 0.95 r 5 hue -5}
+}
+
+rule branch {
+	draw {}	branch { y 1 s 0.95 r 5 hue 5}
+}
+
+rule branch {
+	branch{flip 90}
+}
+
+rule branch {
+	draw {}	fork {}
+}
+
+rule branch 0.1 {circle{}}
+
+rule fork {
+	branch{flip 90} branch{}
+}
+
+rule draw {
+TRIANGLE {flip 180}
+CIRCLE{s 0.51 x 0.245  y 0.33}
+CIRCLE{s 0.51 x -0.242  y 0.33}
+draw { s 0.98 sat -0.01}
+}

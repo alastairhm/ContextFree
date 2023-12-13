@@ -1,0 +1,18 @@
+startshape spin { color alpha}
+
+rule spin {
+spikes {}
+spin {x 10 r -20 s 0.95 }
+}
+
+rule spikes { spike {hue =1 sat =0.8016 b =0.9502 alpha =0.6} }
+
+rule spike { point {  } 
+spike { r -15 s 0.99 hue 1 } 
+}
+
+rule point { CIRCLE{} point { y 0.25 s 0.99 sat -0.005 r -1}}
+
+
+
+

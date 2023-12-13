@@ -1,0 +1,20 @@
+startshape TOP{color}
+
+rule TOP{
+hearts{sat =1 b=1}
+hearts{y -1.2 sat =1 b=1 r 180}
+//hearts{x -0.6 y -0.6 sat =1 b=1 r 90}
+//hearts{x 0.6 y -0.6 sat =1 b=1 r 270}
+}
+
+rule hearts{
+draw{}
+hearts{y 1.2 s 0.95 r 30}
+}
+
+rule draw {
+TRIANGLE {flip 180}
+CIRCLE{s 0.51 x 0.245  y 0.33}
+CIRCLE{s 0.51 x -0.242  y 0.33}
+draw { s 0.99 sat -0.01}
+}

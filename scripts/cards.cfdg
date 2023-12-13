@@ -1,0 +1,25 @@
+startshape TOP{color}
+
+rule TOP{
+drawheart{sat=1 b=1}
+drawdiamond{x 1 sat=1 b=1}
+drawspade{x 2.5}
+}
+
+rule drawspade{
+drawheart {flip 180}
+TRIANGLE{y -0.75 s 0.4 0.6}
+}
+
+rule drawheart {
+TRIANGLE {flip 180}
+CIRCLE{s 0.51 x 0.245  y 0.33}
+CIRCLE{s 0.51 x -0.242  y 0.33}
+drawheart { s 0.99 sat -0.01}
+}
+
+rule drawdiamond{
+TRIANGLE {}
+TRIANGLE {y -0.58 flip 180}
+drawdiamond{ s 0.99 sat -0.01}
+}

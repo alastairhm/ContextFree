@@ -1,0 +1,34 @@
+startshape tree3
+
+rule tree3
+{
+tree2 {}
+}
+
+rule tree2{
+tree2{x 2.3 size 0.5 r 45}
+tree{}
+}
+
+rule tree {
+branch_right{}
+branch_right{r 180}
+}
+
+rule branch_right {
+branch_right{x 0.5 y 0.5 size 0.6 r -45}
+branch_left{x -0.5 y 0.5 size 0.6 r 45}
+blob{}
+}
+
+rule branch_left {
+branch_left{x -0.5 y 0.5 size 0.6 r 45}
+branch_right{x 0.5 y 0.5 size 0.6 r -45}
+blob{}
+}
+
+rule blob {
+CIRCLE {}
+CIRCLE {x 0.5 size 0.5 b 1}
+CIRCLE {x -0.5 size 0.5 b 1}
+}

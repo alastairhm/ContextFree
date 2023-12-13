@@ -1,0 +1,32 @@
+startshape TSHAPES {color alpha}
+
+rule TSHAPES
+{
+BSHAPES {}
+BSHAPES {r 90}
+BSHAPES {r 180}
+BSHAPES {r 270}
+}
+
+rule BSHAPES{
+SHAPES{}
+BSHAPES{x 14.6 s 0.8 r 45}
+}
+
+rule SHAPES { 
+SHAPE {hue 60 sat =1 b =1 alpha =1}
+SHAPE {hue 60 sat =1 b =1 alpha =1 r 90}
+SHAPE {hue 60 sat =1 b =1 alpha =1 r 180}
+SHAPE {hue 60 sat =1 b =1 alpha =1 r 270}
+}
+
+rule SHAPE { A{ } SHAPE{x 2.1 s 0.91 hue -2  r 23}}
+
+rule A { B { }
+A { x 1 s 0.9 r 50 hue -1}
+}
+
+rule B { TRIANGLE{} 
+B { x 0.002 y 0.002 s 0.98 sat -0.01 alpha -0.02}
+}
+
