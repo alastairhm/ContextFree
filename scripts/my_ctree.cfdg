@@ -1,7 +1,7 @@
-startshape trees {color}
+startshape trees 
 
 rule trees {
-tree {  hue =22.9 sat =1 b =1 }
+tree {  hue 22.9 sat 1 b 1 }
 trees { r -10 s 0.90 }
 }
 

@@ -1,8 +1,8 @@
-startshape tree4 {color}
+startshape tree4 
 
 rule tree4
 {
-tree3 {  hue =0 sat =1 b =0.85 }
+tree3 {  hue 0 sat 1 b 0.85 }
 }
 
 rule tree3

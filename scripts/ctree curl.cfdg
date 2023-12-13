@@ -1,9 +1,9 @@
-startshape tree3 {color}
+startshape tree3
 
 rule tree3
 {
-tree2 {sat =1 b= 0.8 }
-tree2 {y -2.5 sat =1 b= 0.8 flip 180}
+tree2 {sat 1 b 0.8 }
+tree2 {y -2.5 sat  1 b  0.8 flip 180}
 }
 
 rule tree2{

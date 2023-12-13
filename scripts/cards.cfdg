@@ -1,8 +1,8 @@
-startshape TOP{color}
+startshape TOP
 
 rule TOP{
-drawheart{sat=1 b=1}
-drawdiamond{x 1 sat=1 b=1}
+drawheart{sat 1 b 1}
+drawdiamond{x 1 sat 1 b 1}
 drawspade{x 2.5}
 }
 
