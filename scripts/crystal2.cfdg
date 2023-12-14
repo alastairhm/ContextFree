@@ -1,0 +1,27 @@
+startshape gem
+
+background { b -1 }
+
+rule gem{
+crystals {}
+     gem { s 0.8 r 10 }
+}
+
+rule crystals {
+crystal { h 81.87 sat 0.8642 b 1.0000 }
+crystal { h 81.87 sat 0.8642 b 1.0000 r 90}
+crystal { h 81.87 sat 0.8642 b 1.0000 r 180} 
+crystal { h 81.87 sat 0.8642 b 1.0000 r 270}
+}
+
+rule crystal {
+blob {}
+crystal {s 0.5 y 0.75}
+crystal {s 0.5 x 0.75}
+}
+
+rule blob {
+SQUARE {}
+     blob {s 0.9 b - 0.1 r 5}
+}
+
