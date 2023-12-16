@@ -1,5 +1,8 @@
 startshape trees
 
+background { b -1 }
+
+
 rule trees {
 tree {  hue 22.9 sat 1 b 1 }
 trees { r -15 s 0.90 x 1}
