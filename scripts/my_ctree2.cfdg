@@ -1,7 +1,7 @@
-startshape trees {color}
+startshape trees
 
 rule trees {
-tree {  hue =22.9 sat =1 b =1 }
+tree {  hue 22.9 sat 1 b 1 }
 trees { r -15 s 0.90 x 1}
 }
 
@@ -29,7 +29,7 @@ rule branch {
 	draw {}	fork {}
 }
 
-rule branch 0.1 {circle{}}
+rule branch 0.1 {draw{}}
 
 rule fork {
 	branch{flip 90} branch{}
