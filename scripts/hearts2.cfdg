@@ -1,8 +1,8 @@
-startshape TOP{color}
+startshape TOP
 
 rule TOP{
-hearts{sat =1 b=1}
-hearts{y -1.2 sat =1 b=1 r 180}
+hearts{sat 1 b 1}
+hearts{y -1.2 sat 1 b 1 r 180}
 }
 
 rule hearts{

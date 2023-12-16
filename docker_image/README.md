@@ -5,7 +5,7 @@ Docker image for building and running the command line UNIX verion of [context-f
 ## Build Docker Image
 
 ```bash
-docker build -t context-free .
+docker build -t contextfree .
 ```
 
 ## Creating an image
@@ -13,7 +13,7 @@ docker build -t context-free .
 Change into the directory with the Context-free file.
 
 ```bash
-docker run --rm -v ${PWD}:/mnt context-free -s1024 input_file.cfdg output.png
+docker run --rm -v ${PWD}:/mnt alastairhm/contextfree -s1024 input_file.cfdg output.png
 ```
 
 Output file will be written to the same folder.

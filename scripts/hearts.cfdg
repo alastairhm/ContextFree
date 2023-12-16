@@ -1,10 +1,10 @@
-startshape TOP{color}
+startshape TOP
 
 rule TOP{
-hearts{sat =1 b=1}
-hearts{y -1.2 sat =1 b=1 r 180}
-//hearts{x -0.6 y -0.6 sat =1 b=1 r 90}
-//hearts{x 0.6 y -0.6 sat =1 b=1 r 270}
+hearts{sat 1 b 1}
+hearts{y -1.2 sat 1 b 1 r 180}
+//hearts{x -0.6 y -0.6 sat 1 b 1 r 90}
+//hearts{x 0.6 y -0.6 sat 1 b 1 r 270}
 }
 
 rule hearts{
