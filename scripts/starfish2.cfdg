@@ -1,4 +1,4 @@
-startshape TSHAPES {color alpha}
+startshape TSHAPES 
 
 rule TSHAPES
 {
@@ -14,10 +14,10 @@ BSHAPES{x 14.6 s 0.8 r 45}
 }
 
 rule SHAPES { 
-SHAPE {sat =1 b =1 alpha =1}
-SHAPE {sat =1 b =1 alpha =1 r 90}
-SHAPE {sat =1 b =1 alpha =1 r 180}
-SHAPE {sat =1 b =1 alpha =1 r 270}
+SHAPE {sat 1 b 1 alpha 1}
+SHAPE {sat 1 b 1 alpha 1 r 90}
+SHAPE {sat 1 b 1 alpha 1 r 180}
+SHAPE {sat 1 b 1 alpha 1 r 270}
 }
 
 rule SHAPE { A{ } SHAPE{x 2.1 s 0.91 hue -5  r 23}}

@@ -1,10 +1,10 @@
-startshape SHAPES {color alpha}
+startshape shapes 
 
-rule SHAPES { 
-SHAPE {sat =1 b =1 alpha =1}
-SHAPE {sat =1 b =1 alpha =1 r 90}
-SHAPE {sat =1 b =1 alpha =1 r 180}
-SHAPE {sat =1 b =1 alpha =1 r 270}
+rule shapes { 
+SHAPE {sat 1 b 1 alpha 1}
+SHAPE {sat 1 b 1 alpha 1 r 90}
+SHAPE {sat 1 b 1 alpha 1 r 180}
+SHAPE {sat 1 b 1 alpha 1 r 270}
 }
 
 rule SHAPE { A{ } SHAPE{x 2.1 s 0.9 hue 5 r 20}}
