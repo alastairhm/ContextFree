@@ -1,33 +1,35 @@
 startshape tree
 
 rule tree {
-branch {b 1}
+	branch {b 1}
 }
 
 rule branch 20 {
-	draw {}	branch { y 1 s 0.98 r 5 b -0.01}
+	draw {}
+	branch { y 1 s 0.98 r 5 b -0.01}
 }
 
 rule branch {
-	draw {}	branch { y 1 s 0.98 r 5 b +0.01}
+	draw {}
+	branch { y 1 s 0.98 r 5 b +0.01}
 }
 
 rule branch {
 	branch{flip 90}
 }
 
-rule branch {
-	draw {}	fork {}
+rule branch 1 {
+	draw {}	
+	fork {}
 }
 
-rule branch 0.1 {draw{}}
+rule branch 0.1 {CIRCLE {}}
 
 rule fork {
-	branch{flip 90} branch{}
+	branch{flip 90}
+	branch{}
 }
-
 
 rule draw {
 	CIRCLE {}
-	//CIRCLE {s 0.95 b 1}
 } 

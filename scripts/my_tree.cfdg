@@ -16,7 +16,7 @@ rule branch {
 	draw {}	fork {}
 }
 
-rule branch 0.1 {circle{}}
+rule branch 0.1 {CIRCLE {}}
 
 rule fork {
 	branch{flip 90} branch{}
