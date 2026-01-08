@@ -11,3 +11,7 @@ tasks:
     cmds:
       - docker push alastairhm/contextfree:latest 
     silent: true
+  test:
+    cmds:
+      - docker run --rm -v ${PWD}:/mnt alastairhm/contextfree -s1024 input_file.cfdg output.png
+    silent: true

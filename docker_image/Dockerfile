@@ -1,4 +1,4 @@
-FROM ubuntu as builder
+FROM ubuntu
 
 WORKDIR /root
 
