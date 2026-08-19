@@ -59,3 +59,12 @@ A few of the rendered outputs in `Examples/`:
 ## License
 
 [MIT](LICENSE)
+
+```text
+          _    _ __  __
+    /\   | |  | |  \/  | Email    : alastair@montgomery.me.uk
+   /  \  | |__| | \  / | Web      : https://blog.0x32.co.uk/
+  / /\ \ |  __  | |\/| | Twitter  : @alastair_hm
+ / ____ \| |  | | |  | | Mastodon : @Alastair@mastodon.me.uk
+/_/    \_\_|  |_|_|  |_| (c) 2021
+```
