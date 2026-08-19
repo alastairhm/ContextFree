@@ -60,8 +60,8 @@ A few of the rendered outputs in `Examples/`:
 
 [MIT](LICENSE)
 
-```
-     _    _ __  __
+```text
+          _    _ __  __
     /\   | |  | |  \/  | Email    : alastair@montgomery.me.uk
    /  \  | |__| | \  / | Web      : https://blog.0x32.co.uk/
   / /\ \ |  __  | |\/| | Twitter  : @alastair_hm
