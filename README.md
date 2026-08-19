@@ -4,6 +4,8 @@ Scripts for [Context Free Art](https://www.contextfreeart.org/index.html) — a 
 
 This repo holds a personal collection of `.cfdg` scripts and their rendered output, plus a Docker image that wraps the [context-free](https://github.com/MtnViewJohn/context-free) command-line renderer (`cfdg`) so scripts can be rendered without installing anything locally.
 
+See also: [Context Free generative art](https://blog.0x32.co.uk/posts/contextfree-generative-art/) — a blog post about this repo.
+
 ## Layout
 
 - `scripts/*.cfdg` — Context Free Art source scripts (the grammar/DSL, not shell scripts).
