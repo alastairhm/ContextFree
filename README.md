@@ -66,5 +66,5 @@ A few of the rendered outputs in `Examples/`:
    /  \  | |__| | \  / | Web      : https://blog.0x32.co.uk/
   / /\ \ |  __  | |\/| | Twitter  : @alastair_hm
  / ____ \| |  | | |  | | Mastodon : @Alastair@mastodon.me.uk
-/_/    \_\_|  |_|_|  |_| (c) 2021
+/_/    \_\_|  |_|_|  |_| (c) 2020
 ```
