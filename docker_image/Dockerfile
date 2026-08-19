@@ -1,4 +1,4 @@
-FROM ubuntu AS build
+FROM ubuntu:26.04 AS build
 
 WORKDIR /root
 
@@ -12,7 +12,7 @@ RUN git clone https://github.com/MtnViewJohn/context-free.git && \
     make && \
     cp cfdg /usr/local/bin/cfdg
 
-FROM ubuntu
+FROM ubuntu:26.04
 
 # Runtime shared libs linked by cfdg (see `ldd /usr/local/bin/cfdg` in the build stage):
 # libpng16, libicu, libstdc++/libgcc, zlib. No build toolchain or source tree here.
