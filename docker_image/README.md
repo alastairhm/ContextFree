@@ -17,3 +17,12 @@ docker run --rm -v ${PWD}:/mnt alastairhm/contextfree -s1024 input_file.cfdg out
 ```
 
 Output file will be written to the same folder.
+
+```
+     _    _ __  __
+    /\   | |  | |  \/  | Email    : alastair@montgomery.me.uk
+   /  \  | |__| | \  / | Web      : https://blog.0x32.co.uk/
+  / /\ \ |  __  | |\/| | Twitter  : @alastair_hm
+ / ____ \| |  | | |  | | Mastodon : @Alastair@mastodon.me.uk
+/_/    \_\_|  |_|_|  |_| (c) 2021
+```
