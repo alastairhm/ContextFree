@@ -56,6 +56,10 @@ A few of the rendered outputs in `Examples/`:
 | ![fractal_tree](Examples/fractal_tree.png) | ![starfish](Examples/starfish.png) | ![hearts](Examples/hearts.png) |
 | ![crystal2](Examples/crystal2.png) | ![spikes](Examples/spikes.png) | ![cards](Examples/cards.png) |
 
+## See also
+
+* [fractals](https://github.com/alastairhm/fractals): Mandelbrot renderers in Free Pascal for the terminal, plus Python scripts for a retro-styled deep-zoom video, Koch curves, Pythagoras trees and strange attractors.
+
 ## License
 
 [MIT](LICENSE)
